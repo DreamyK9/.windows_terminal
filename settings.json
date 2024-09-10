@@ -4,6 +4,21 @@
     "actions": 
     [
         {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            }
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "down"
+            },
+            "keys": "ctrl+alt+shift+j"
+        },
+        {
             "command": "unbound",
             "keys": "ctrl+v"
         },
@@ -14,12 +29,33 @@
         {
             "command": 
             {
-                "action": "copy",
-                "singleLine": false
-            }
+                "action": "splitPane",
+                "split": "up"
+            },
+            "keys": "ctrl+alt+shift+k"
         },
         {
             "command": "paste"
+        },
+        {
+            "command": 
+            {
+                "action": "resizePane",
+                "direction": "up"
+            },
+            "keys": "alt+shift+k"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": 
+            {
+                "action": "resizePane",
+                "direction": "left"
+            },
+            "keys": "alt+shift+h"
         },
         {
             "command": 
@@ -31,8 +67,100 @@
             "keys": "alt+shift+d"
         },
         {
-            "command": "find",
-            "keys": "ctrl+shift+f"
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "left"
+            },
+            "keys": "ctrl+alt+shift+h"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "left"
+            },
+            "keys": "alt+h"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "down"
+            },
+            "keys": "alt+j"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "right"
+            },
+            "keys": "ctrl+alt+shift+l"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "right"
+            },
+            "keys": "alt+l"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "up"
+            },
+            "keys": "alt+k"
+        },
+        {
+            "command": 
+            {
+                "action": "resizePane",
+                "direction": "down"
+            },
+            "keys": "alt+shift+j"
+        },
+        {
+            "command": 
+            {
+                "action": "resizePane",
+                "direction": "right"
+            },
+            "keys": "alt+shift+l"
+        },
+        {
+            "command": 
+            {
+                "action": "swapPane",
+                "direction": "down"
+            },
+            "keys": "ctrl+shift+j"
+        },
+        {
+            "command": 
+            {
+                "action": "swapPane",
+                "direction": "left"
+            },
+            "keys": "ctrl+shift+h"
+        },
+        {
+            "command": 
+            {
+                "action": "swapPane",
+                "direction": "up"
+            },
+            "keys": "ctrl+shift+k"
+        },
+        {
+            "command": 
+            {
+                "action": "swapPane",
+                "direction": "right"
+            },
+            "keys": "ctrl+shift+l"
         }
     ],
     "copyFormatting": "none",
