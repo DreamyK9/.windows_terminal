@@ -60,8 +60,14 @@
             },
             {
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "font": 
+                {
+                    "face": "SauceCodePro Nerd Font Mono",
+                    "weight": "medium"
+                },
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
+                "intenseTextStyle": "all",
                 "name": "Eingabeaufforderung"
             },
             {
@@ -75,7 +81,8 @@
                 "closeOnExit": "graceful",
                 "font": 
                 {
-                    "face": "SauceCodePro Nerd Font Mono"
+                    "face": "SauceCodePro Nerd Font Mono",
+                    "weight": "medium"
                 },
                 "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
                 "hidden": false,
