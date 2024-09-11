@@ -6,17 +6,10 @@
         {
             "command": 
             {
-                "action": "copy",
-                "singleLine": false
-            }
-        },
-        {
-            "command": 
-            {
                 "action": "splitPane",
-                "split": "down"
+                "split": "up"
             },
-            "keys": "ctrl+alt+shift+j"
+            "keys": "ctrl+alt+shift+k"
         },
         {
             "command": "unbound",
@@ -30,12 +23,16 @@
             "command": 
             {
                 "action": "splitPane",
-                "split": "up"
+                "split": "down"
             },
-            "keys": "ctrl+alt+shift+k"
+            "keys": "ctrl+alt+shift+j"
         },
         {
-            "command": "paste"
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            }
         },
         {
             "command": 
@@ -46,8 +43,7 @@
             "keys": "alt+shift+k"
         },
         {
-            "command": "find",
-            "keys": "ctrl+shift+f"
+            "command": "paste"
         },
         {
             "command": 
@@ -56,6 +52,10 @@
                 "direction": "left"
             },
             "keys": "alt+shift+h"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
         },
         {
             "command": 
@@ -85,18 +85,18 @@
         {
             "command": 
             {
-                "action": "moveFocus",
-                "direction": "down"
-            },
-            "keys": "alt+j"
-        },
-        {
-            "command": 
-            {
                 "action": "splitPane",
                 "split": "right"
             },
             "keys": "ctrl+alt+shift+l"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "down"
+            },
+            "keys": "alt+j"
         },
         {
             "command": 
@@ -207,6 +207,7 @@
             {
                 "adjustIndistinguishableColors": "indexed",
                 "closeOnExit": "graceful",
+                "cursorShape": "bar",
                 "font": 
                 {
                     "face": "SauceCodePro Nerd Font Mono",
