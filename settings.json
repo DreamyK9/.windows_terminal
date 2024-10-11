@@ -207,7 +207,7 @@
             {
                 "adjustIndistinguishableColors": "indexed",
                 "closeOnExit": "graceful",
-                "cursorShape": "bar",
+                "cursorShape": "filledBox",
                 "font": 
                 {
                     "face": "SauceCodePro Nerd Font Mono",
